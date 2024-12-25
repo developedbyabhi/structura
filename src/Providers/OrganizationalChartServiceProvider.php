@@ -1,9 +1,10 @@
 <?php
 
-namespace OrganizationalChart;
+// namespace incipient\structura\Providers;
+namespace OrganizationalChart\Providers;
+
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Route;
 
 class OrganizationalChartServiceProvider extends ServiceProvider
 {

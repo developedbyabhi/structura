@@ -1,7 +1,7 @@
 <?php
 namespace OrganizationalChart\Models;
-
-namespace App\Models;
+// namespace incipient\structura\Models;
+// namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
