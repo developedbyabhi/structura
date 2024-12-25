@@ -8,6 +8,11 @@
             "incipient\\structura\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "incipient\\structura\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "incipient",
@@ -37,7 +42,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "incipient\\structura\\providers\\OrganizationalChartServiceProvider"
+                "incipient\\structura\\Providers\\OrganizationalChartServiceProvider"
             ],
             "aliases": {
                 "structura": "incipient\\structura\\Facades\\structura"
