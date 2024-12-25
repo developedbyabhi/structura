@@ -37,7 +37,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "incipient\\structura\\OrganizationalChartServiceProvider"
+                "incipient\\structura\\\\structura\\OrganizationalChartServiceProvider"
             ],
             "aliases": {
                 "structura": "incipient\\structura\\Facades\\structura"
