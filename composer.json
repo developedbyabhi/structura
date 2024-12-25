@@ -1,16 +1,16 @@
 {
     "name": "incipient/structura",
-    "description": "Structura is a Laravel package for seamlessly managing and visualizing organizational hierarchies. It provides intuitive tools to define reporting relationships, handle employee data, and generate dynamic organizational charts. With support for AI-driven insights and modern charting libraries, Structura empowers organizations to efficiently design and optimize their structures, ensuring clarity and productivity.",
+    "description": "structura is a Laravel package for seamlessly managing and visualizing organizational hierarchies. It provides intuitive tools to define reporting relationships, handle employee data, and generate dynamic organizational charts. With support for AI-driven insights and modern charting libraries, structura empowers organizations to efficiently design and optimize their structures, ensuring clarity and productivity.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Incipient\\Structura\\": "src/"
+            "incipient\\structura\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Incipient",
+            "name": "incipient",
             "email": "contact@incipient.com"
         }
     ],
@@ -37,10 +37,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Incipient\\Structura\\OrganizationalChartServiceProvider"
+                "incipient\\structura\\OrganizationalChartServiceProvider"
             ],
             "aliases": {
-                "Structura": "Incipient\\Structura\\Facades\\Structura"
+                "structura": "incipient\\structura\\Facades\\structura"
             }
         }
     },
@@ -57,3 +57,4 @@
         "docs": "https://github.com/incipient/structura/wiki"
     }
 }
+
