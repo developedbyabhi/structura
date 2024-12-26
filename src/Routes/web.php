@@ -1,6 +1,8 @@
 <?php
 namespace incipient\structura\Routes;
-use OrganizationalChart\Controllers\EmployeeController;
+
+use Illuminate\Support\Facades\Route;
+use incipient\structura\Controllers\EmployeeController;
 
 Route::group(['prefix' => 'organizational-chart', 'as' => 'organizationalchart.'], function () {
     // Route to display the list of employees (Organizational Chart view)

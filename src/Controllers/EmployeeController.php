@@ -2,7 +2,7 @@
 namespace incipient\structura\Controllers;
 
 use Illuminate\Http\Request;
-use OrganizationalChart\Models\Employee;
+use incipient\structura\Models\Employee;
 
 class EmployeeController extends Controller
 {
