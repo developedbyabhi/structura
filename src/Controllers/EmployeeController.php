@@ -1,5 +1,5 @@
 <?php
-namespace OrganizationalChart\Controllers;
+namespace incipient\structura\Controllers;
 
 use Illuminate\Http\Request;
 use OrganizationalChart\Models\Employee;

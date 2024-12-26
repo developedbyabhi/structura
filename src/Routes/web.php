@@ -1,5 +1,5 @@
 <?php
-namespace OrganizationalChart\Routes;
+namespace incipient\structura\Routes;
 use OrganizationalChart\Controllers\EmployeeController;
 
 Route::group(['prefix' => 'organizational-chart', 'as' => 'organizationalchart.'], function () {

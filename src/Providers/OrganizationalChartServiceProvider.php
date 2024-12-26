@@ -1,8 +1,7 @@
 <?php
 
 // namespace incipient\structura\Providers;
-namespace OrganizationalChart\Providers;
-
+namespace incipient\structura\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

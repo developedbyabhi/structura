@@ -1,5 +1,5 @@
 <?php
-namespace OrganizationalChart\Migrations;
+namespace incipient\structura\Migrations;
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;

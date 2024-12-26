@@ -1,5 +1,5 @@
 <?php
-namespace OrganizationalChart\Models;
+namespace incipient\structura\Models;
 // namespace incipient\structura\Models;
 // namespace App\Models;
 
