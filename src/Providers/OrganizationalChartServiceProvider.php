@@ -1,6 +1,6 @@
+
 <?php
 
-// namespace incipient\structura\Providers;
 namespace incipient\structura\Providers;
 
 use Illuminate\Support\ServiceProvider;
@@ -12,7 +12,7 @@ class OrganizationalChartServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // Publish migrations
+        // Load migrations
         $this->loadMigrationsFrom(__DIR__ . '/../Migrations');
 
         // Load views
@@ -25,6 +25,21 @@ class OrganizationalChartServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../Config/organizational_chart.php' => config_path('organizational_chart.php'),
         ], 'config');
+
+        // Publish migrations
+        $this->publishes([
+            __DIR__ . '/../Migrations' => database_path('migrations'),
+        ], 'migrations');
+
+        // Publish views
+        $this->publishes([
+            __DIR__ . '/../Views' => resource_path('views/vendor/organizationalchart'),
+        ], 'views');
+
+        // Publish controllers
+        $this->publishes([
+            __DIR__ . '/../Controllers' => app_path('Http/Controllers/Vendor/Structura'),
+        ], 'controllers');
     }
 
     /**
