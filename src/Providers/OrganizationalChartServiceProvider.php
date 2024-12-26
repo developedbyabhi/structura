@@ -39,6 +39,9 @@ class OrganizationalChartServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../Controllers' => app_path('Http/Controllers/Vendor/Structura'),
         ], 'controllers');
+   $this->publishes([
+            __DIR__ . '/../Routes/web.php' => base_path('routes/vendor/structura/web.php'),
+        ], 'routes');
     }
 
     /**
