@@ -1,8 +1,8 @@
 ```
 Here is the content for the `README.md` file:
 
-```markdown
-# Structura
+
+Structura
 
 Structura is a Laravel package for seamlessly managing and visualizing organizational hierarchies. It provides intuitive tools to define reporting relationships, handle employee data, and generate dynamic organizational charts.
 
