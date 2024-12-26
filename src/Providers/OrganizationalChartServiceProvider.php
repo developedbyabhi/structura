@@ -1,4 +1,3 @@
-
 <?php
 
 namespace incipient\structura\Providers;
