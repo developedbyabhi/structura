@@ -1,5 +1,3 @@
-```
-Here is the content for the `README.md` file:
 
 
 Structura
